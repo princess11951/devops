@@ -42,13 +42,13 @@
      <id>spring-deploy</id>
  <distributionManagement>
     <repository>
-      <id>spring-releases</id>
-      <name>spring-releases</name>
+      <id>mc-releases</id>
+      <name>mc-releases</name>
       <url>http://ec2-35-154-85-177.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/mc-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>spring-snapshots</id>
-      <name>spring-snapshots</name>
+      <id>mc-snapshots</id>
+      <name>mc-snapshots</name>
       <url>http://ec2-35-154-85-177.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/mc-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
